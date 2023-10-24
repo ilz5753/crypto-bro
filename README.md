@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Crypto-Bro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **About**: Crypto-Bro is a cryptocurrency information and statistics web application that provides dynamic data visualization. It's developed with React, a robust JavaScript library, and styled using the versatile Tailwind CSS framework.
 
-## Available Scripts
+- **Live Demo**: Experience the app's real-time cryptocurrency data and interactive charts by visiting the [live demo](https://crypto-awlwawa78-ilz5753.vercel.app/).
 
-In the project directory, you can run:
+- **Figma UI**: The user interface and design elements of the app were thoughtfully crafted using Figma. To explore the design in more detail, check out the [Figma UI](https://www.figma.com/community/file/1086847276055280434/modern-cryptocurrency-dashboard-freebies).
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you can run the project, make sure you have Node.js and npm installed on your system. To get started, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone this repository to your local machine:
 
-### `npm test`
+```bash
+git clone https://github.com/ilz5753/crypto-bro.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Change to the project directory:
 
-### `npm run build`
+```bash
+cd crypto-bro
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install the project dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+To run Crypto-Bro, you can use the following npm scripts:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `npm start`: Runs the app in development mode. You can access it at http://localhost:3000 in your web browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `npm build`: Builds the app for production use. The build files will be located in the build directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `npm test`: Launches the test runner in the interactive watch mode.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `npm eject`: This script will eject the app from Create React App's configuration, which will allow you to customize the build setup. **Use with caution.**
 
-## Learn More
+## Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Crypto-Bro relies on several third-party packages and libraries, including but not limited to:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `@canvasjs/charts and @canvasjs/react-charts`: Used for interactive charting.
+- `@nextui-org/react`: Provides UI components and theming.
+- `date-fns`: A utility library for working with dates.
+- `framer-motion`: Adds animation capabilities to the app.
+- `lodash`: A utility library for various operations.
+- `react-icons`: Provides a collection of icons for use in the app.
+- `tailwind-scrollbar` and tailwindcss: Used for styling and custom scrollbar implementation.
+- `typescript`: The programming language used for this project.
+  usehooks-ts: Contains custom React hooks.
+- `web-vitals`: Helps measure real user performance of your web app.
+  Please refer to the package.json file for a complete list of dependencies and their respective versions.
+
+## Contributing
+
+If you'd like to contribute to Crypto-Bro, feel free to fork this repository, make your changes, and submit a pull request. Your contributions are welcome!
+
+## License
+
+Crypto-Bro is open-source software licensed under the MIT License. You can use, modify, and distribute this code for your projects. However, please keep in mind to give appropriate credit and maintain the same license for derivative works.
+
+**Happy coding! 🚀**

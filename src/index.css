@@ -1,13 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@font-face {
+  font-family: "NexaHeavy";
+  src: url("../public/fonts/Nexa-Heavy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NexaRegular";
+  src: url("../public/fonts/Nexa-Regular.otf") format("truetype");
+}
+@layer base {
+  .custom-scrollbar {
+    @apply scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-[transparent];
+  }
 }
